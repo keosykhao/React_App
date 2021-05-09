@@ -19,6 +19,7 @@ class Main extends Component {
             <div>
                 <h1>Hi</h1>
                 <button>Get Joke</button>
+                
             </div>
         );
     }
