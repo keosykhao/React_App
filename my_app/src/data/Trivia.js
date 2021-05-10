@@ -16,13 +16,16 @@ class Trivia extends Component {
             catch(err){
                 console.log(err)
     }
+    handleClick(){
+        console.log("I'm working")
+    }
 
     render() {
         
        
         return (
             <div>
-                <button onClick={this.getTrivia}>Trivia</button>
+                <button onClick={this.handleClick}>Trivia</button>
                 
             </div>
         );
