@@ -1,28 +1,24 @@
-import React, { Component } from 'react';
-
-class Main extends Component {
-    state = {trivia: ''};
-
-    componentDidMount(){
-        console.log('Component did mount')
-    }
-
-  
+import React, { Component, useContext } from 'react';
+import  { GameStateContext } from "../Helper/Context"
 
 
 
+function Main() {
+        const { gamestate, setGameState, userName, setUserName  } =
+        useContext(GameStateContext)
 
 
 
-    render() {
-        return (
-            <div>
-                <h1>Hi</h1>
-                <button>Get Joke</button>
-                
-            </div>
-        );
-    }
+    return (
+        <div className="Menu">
+            <label>Enter Name: </label>
+            <input type="text" placeholder="name" onChange={ (event) => {setUserName(event.target.value);}}/>
+            <button onClick={ () => { setGameState("playing"); }}>
+                Start Quiz
+            </button>
+            
+        </div>
+    );
 }
 
 export default Main;
