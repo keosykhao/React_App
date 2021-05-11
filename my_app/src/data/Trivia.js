@@ -12,10 +12,15 @@ class Trivia extends Component {
         // use await to tell our function to wait for data
         const response = await fetch(url);
             const data = await response.json();
-            console.log(data.results)}
+                    console.log(data.results)}
             catch(err){
                 console.log(err)
+          
+
     }
+
+
+
     handleClick(){
         console.log("I'm working")
     }
