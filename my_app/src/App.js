@@ -1,31 +1,33 @@
-import React, { useState, useContext } from "react";
-import './App.css';
-import Main from './components/Main'
-import Trivia from './components/Trivia';
-import End from './components/End'
-import { GameStateContext } from './Helper/Context'
+import React, {useEffect, useState} from "react";
+import axios from 'axios';
+import Quiz from './components/Quiz';
+import Container from 'react-bootstrap/Container';
+import './style.css'
 
-function App() {
-  const [gameState, setGameState] = useState("menu");
-  const [userName, setUserName] = useState("");
-  const [score, setScore] = useState(0);
+// did not use an API like I planned instead I made a mock JSON file with all the questions and answers
+const endPoint = './mock.json';
+
+export default function App() {
+
+  const [data, setData] = useState({questions: []});
+
+
+
+  useEffect(() => {
+    loadData();
+  },[])
+// get questions from the mock JSON file
+  async function loadData() {
+    const quizData = await axios.get(endPoint);
+
+    setData({questions: quizData.data.results});
+  console.log(quizData.data)
+  }
+
   return (
-    <div className="App">
-      <h1>Trivia App</h1>
-      <GameStateContext.Provider
-        value={{gameState,
-          setGameState,
-          userName, setUserName,
-          score, setScore
-        }}>
-      {gameState === "menu" && <Main />}
-      {gameState === "trivia" && <Trivia />}
-      {gameState === "end" && <End />}
-        </GameStateContext.Provider>
-
-    
-    </div>
+    // fluid contain is from react bootstrap to be flexible with the screen size
+    <Container fluid>
+    <Quiz data={data}/>
+    </Container>
   );
 }
-
-export default App;

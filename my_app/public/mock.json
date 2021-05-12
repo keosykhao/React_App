@@ -1,0 +1,145 @@
+{"response_code": 0,
+    "results": [
+    {
+    "correct_answer": "Hayao Miyazaki",
+    "incorrect_answers":  ["Isao Takahata", "Mamoru Hosoda", "Hidetaka Miyazaki"],
+    "question": "Who wrote and directed the animated movie &quot;Spirited Away&quot; (2001)?"
+    },
+    
+    
+    {
+    "correct_answer": "5",
+    "incorrect_answers":  ["6", "7", "4"],
+    "question": "In the anime &quot;Mr. Osomatsu&quot;, how many brothers does Osomatsu-san have?"
+    },
+    
+    {
+    "correct_answer": "Flame-Haired Burning-Eyed Hunter",
+    "incorrect_answers":  ["Flame Haze", "Flame-Haired Burning-Eyed Haze", "Shana"],
+    "question": "In &quot;Shakugan no Shana&quot; what was the Shana usually referred as?"
+    },
+    
+    {
+    "correct_answer": "Macroons",
+    "incorrect_answers":  ["Ice Cream", "Pizza", "Chips"],
+    "question": "In the anime, &quot;Super Sonico&quot;, what is Super Sonico&#039;s favorite food?"
+    },
+    
+    
+    {
+    "correct_answer": "My Father&#039;s Journal",                           
+    "incorrect_answers":  ["Billy Bat", "20th Century Boys", "Monster"],
+    "question": "Which one of these Manga titles was not created by Urasawa Naoki?"
+    },
+    
+    
+    {
+    "correct_answer": "8",
+    "incorrect_answers":  ["6", "4", "3"],
+    "question": "The manga JoJo&#039;s Bizarre Adventure is split into how many parts?"
+    },
+    
+    {
+    "correct_answer": "Kars",
+    "incorrect_answers":  ["Erina Joestar", "Santana", "Wired Beck"],
+    "question": "The main antagonist of the second part of JoJo&#039;s Bizarre Adventure is which of the following?"
+    },
+    
+    
+    {
+    "correct_answer": "Enrico Pucci",
+    "incorrect_answers":  ["Jotaro Kujo", "Jolyne Cujoh", "Kujo Jotaro"],
+    "question": "In JoJo&#039;s Bizarre Adventure, winch character is able to accelerate time?"
+    },
+    
+    
+    {
+    "correct_answer": "Paranoid Android",
+    "incorrect_answers":  ["Sadistic Summer", "Bittersweet Symphony", "Mad World"],
+    "question": "What song plays in the ending credits of the anime &quot;Ergo Proxy&quot;?"
+    },
+    
+    
+    {
+    "correct_answer": "Yhwach",
+    "incorrect_answers":  ["Juha Bach", "Yuhabah", "Juhabach"],
+    "question": "What is the name of the final villain in the manga series &quot;Bleach&quot;?"
+    },
+    
+    {
+    "correct_answer": "Dispell any esper or magical powers",
+    "incorrect_answers":  ["Teleport", "Make telepathic communications", "Create electricity from his own body"],
+    "question": "In the &quot;Toaru Majutsu no Index&quot; anime, Touma Kamijou is a level 0 esper that has the ability to do what?"
+    },
+    
+    
+    {
+    "correct_answer": "Bones",
+    "incorrect_answers":  ["A-1 Pictures", "Shaft", "Madhouse"],
+    "question": "Which animation studio animated the 2016 anime &quot;Mob Psycho 100&quot;?"
+    },
+    
+    
+    {
+    "correct_answer": "The Super Dimension Fortress Macross",
+    "incorrect_answers":  ["Mobile Suit Gundam", "Armored Trooper VOTOMS", "Neon Genesis Evangelion"],
+    "question": "Which of the following anime of the mecha genre began airing in 1982?"
+    },
+    
+    
+    {
+    "correct_answer": "Golgo 13",
+    "incorrect_answers":  ["JoJo's Bizarre Adventure", "Detective Conan", "One Piece"],
+    "question": "Which of the following manga have the most tankouban volumes?"
+    },
+    
+    
+    {
+    "correct_answer": "American Football",
+    "incorrect_answers":  ["Baseball", "Football", "Basketball"],
+    "question": "What sport is being played in the Anime Eyeshield 21?"
+    },
+    
+    
+    
+    {
+    "correct_answer": "Momoko Koigakubo",
+    "incorrect_answers":  ["Hajime Aoyama", "Satsuki Miyanoshita", "Mio Itai"],
+    "question": "In the ADV (English) Dub of the anime &quot;Ghost Stories&quot;, which character is portrayed as a Pentacostal Christian?"
+    },
+    
+    
+    {
+    "correct_answer": "2017",
+    "incorrect_answers":  ["2018", "2019", "2020"],
+    "question": "What year did &quot;Attack on Titan&quot; Season 2 begin airing?"
+    },
+    
+    
+    {
+    "correct_answer": "Ainz Ooal Gown",
+    "incorrect_answers":  ["Master", "Yggdrasil", "Kugane Maruyama"],
+    "question": "The character Momonga from the &quot;Overlord&quot; series orders his servants to call him by what name?"
+    },
+    
+    {
+    "correct_answer": "The Third Aerial Girls Squad",
+    "incorrect_answers":  ["Exodus!", "Andes Chucky", "Angel Beats!"],
+    "question": "Aoi Miyamori is the production manager of what anime in &quot;Shirobako&quot;?"
+    },
+    
+    {
+    "correct_answer": "Another",
+    "incorrect_answers":  ["Humanity Has Declined", "Assassination Classroom", "Danganronpa: The Animation"],
+    "question": "Which anime did Seiji Kishi NOT direct?"
+    },
+    
+    
+    {
+    "correct_answer": "Coils",
+    "incorrect_answers":  ["Wires", "Collectors", "Tesla"],
+    "question": "What is the name of the device that allows for infinite energy in the anime &quot;Dimension W&quot;?"
+    }
+    
+    ]
+    }
